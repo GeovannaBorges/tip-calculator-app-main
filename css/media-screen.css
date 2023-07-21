@@ -1,0 +1,34 @@
+@media screen and (max-width: 1000px){
+    .container {
+        flex-direction: column;
+        padding: 2rem;
+        align-items: center;
+    }
+
+    .tip-btn-area {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 0.5rem;
+
+    }
+    
+    .tip-btn-area button, .tip-btn-area .custom-input {
+        padding: 0.1rem;
+        width: 150px;
+    }
+
+    input {
+        width: 350px;
+    }
+
+    .right-area {
+        margin-top: 1rem;
+    }
+
+    .reset-btn-area {
+        margin-top: 4rem;
+    }
+
+    .total-value-p {
+        font-size: 30px;
+    }
+}

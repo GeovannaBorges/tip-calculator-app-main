@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Tip calculator app</title>
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/card.css">
+  <link rel="stylesheet" href="css/media-screen.css">
+
+
+<body>
+
+  <div class="splitter-area">
+    <img src="images/logo.svg">
+  </div>
+
+  <div class="card">
+    <div class="container">
+      <div class="left-area">
+            <div class="bill-area">
+              <div class="error-area">
+                <p>Bill</p>
+                <p class="error-msg" id="error-msg">Can't be zero</p>
+              </div>
+              <input placeholder="0" class="bill-input" id="bill-input">
+            </div>
+
+            <br>
+
+            <div class="select-tip-area">
+              <p>Select Tip %</p>
+
+                <div class="tip-btn-area">
+                  <button class="tip-btn" id="btn-5">5%</button>
+                  <button class="tip-btn" id="btn-10">10%</button>
+                  <button class="tip-btn" id="btn-15">15%</button>
+                  <button class="tip-btn" id="btn-25">25%</button>
+                  <button class="tip-btn" id="btn-50">50%</button>
+                  <input placeholder="Custom" class="custom-input" id="custom-input">
+                </div>
+
+            </div>
+
+            <br>
+
+            <div class="number-of-ppl-area">
+              <div class="error-area">
+                <p>Number of people</p>
+                <p class="error-msg" id="error-msg">Can't be zero</p>
+              </div>
+              <input placeholder="0" class="num-of-ppl-input" id="num-of-ppl-input">
+            </div>
+      </div>
+
+      <div class="right-area">
+          <div class="tip-amount-area">
+            <p class="tip-amount-p">Tip Amount<br> <span> / person</span></p>
+            <p class="total-value-p" id="tip-value-area">	&#36;0.00</p>
+          </div>
+
+          <br>
+      
+          <div class="total-person-area">
+            <p class="total-p">Total <br><span> / person</span></p>
+            <p class="total-value-p" id="total-value-area">	&#36;0.00</p>
+          </div>
+            
+        <div class="reset-btn-area">
+          <button class="reset-btn" id="reset-btn">RESET</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div> 
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
