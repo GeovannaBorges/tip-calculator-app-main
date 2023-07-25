@@ -85,7 +85,7 @@ tip_btn.fifty_percent.onclick = () => {
 }
 
 custom_input.onchange = () => {
-    tip = Number(custom_input.value)
+    tip = Number(custom_input.value) / 100
     if (getError() == true) {
         getError()
     }
